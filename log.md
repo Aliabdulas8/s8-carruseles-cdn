@@ -23,4 +23,4 @@
 
 - @s8tracker C32 (software) — media_id 18092501363527975 — INCIDENCIA: primer intento de contenedor fallo (Meta no pudo obtener zug1wc.jpg desde catbox), reintento inmediato exitoso — https://www.instagram.com/p/DbEc7HjG9TN/
 
-- @aliabdulhadi_8 C5 (REPETIDO) — media_id 18106163105051464 — https://www.instagram.com/p/DbEivZVm9_7/ — INCIDENCIA: progreso.json estaba desactualizado (seguia en ali_s8t=4/hoy.ali_s8t=2 pese a que C3, C4 y C5 ya estaban publicados hoy segun este log). Esta corrida calculo clave c05 con el contador viejo y republico el mismo contenido de C5 (mismo caption, mismo carrusel), creando un post duplicado nuevo (media_id distinto del original 17924569731390908). Se corrigio el estado a ali_s8t=5 y hoy.ali_s8t=4 (cuota de hoy ahora completa) para que la proxima corrida tome c06 sin saltarselo. Revisar por que las corridas de C3/C4/C5 no dejaron progreso.json actualizado.
+- @academiaseccion8 A2 (propio) — media_id 17935492401091709 — https://www.instagram.com/p/DbEi9XzmzhE/
