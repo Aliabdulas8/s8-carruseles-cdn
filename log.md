@@ -20,3 +20,5 @@
 - @aliabdulhadi_8 C5 — media_id 17924569731390908 — https://www.instagram.com/p/DbEOMA-nePy/
 
 - @academiaseccion8 C2 (S8T) — media_id 18025018166846587 — https://www.instagram.com/p/DbEObmOG4kM/
+
+- @s8tracker C32 (software) — media_id 18092501363527975 — INCIDENCIA: primer intento de contenedor fallo (Meta no pudo obtener zug1wc.jpg desde catbox), reintento inmediato exitoso — https://www.instagram.com/p/DbEc7HjG9TN/
