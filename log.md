@@ -9,3 +9,7 @@
 - @aliabdulhadi_8 C1 — https://www.instagram.com/p/DbBpXOsnVKM/
 - @aliabdulhadi_8 C2 — https://www.instagram.com/p/DbB-VEwG3Mv/
 - INCIDENCIA: primer intento de C1 en @aliabdulhadi_8 fallo (catbox caido, Meta rechazo el contenedor). Contadores intactos, reintento exitoso en la corrida siguiente.
+
+## 2026-07-21
+
+- @aliabdulhadi_8 C3 — media_id 18105023242869860 — https://www.instagram.com/p/DbDrx7hoPMt/
