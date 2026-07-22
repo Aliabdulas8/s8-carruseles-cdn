@@ -24,3 +24,9 @@
 - @s8tracker C32 (software) — media_id 18092501363527975 — INCIDENCIA: primer intento de contenedor fallo (Meta no pudo obtener zug1wc.jpg desde catbox), reintento inmediato exitoso — https://www.instagram.com/p/DbEc7HjG9TN/
 
 - @academiaseccion8 A2 (propio) — media_id 17935492401091709 — https://www.instagram.com/p/DbEi9XzmzhE/
+
+## 2026-07-22
+
+- INCIDENCIA (ig-ali-s8t-4x): intento de publicar c05 en @aliabdulhadi_8 (ig_user_id 27502321802724366) fallo en INSTAGRAM_CREATE_CAROUSEL_CONTAINER, antes de crear el primer child container. Error Meta: code 100, subcode 33 — "Object with ID '27502321802724366' does not exist, cannot be loaded due to missing permissions, or does not support this operation". Las 7 imagenes de c05 SI cargaban (HTTP 200 verificado por curl antes del intento). La cuenta conectada en Composio (alias instagram_gammer-soiled) figura con account_type PRIVATE — la API de Instagram Graph exige cuenta Business o Creator para INSTAGRAM_CREATE_CAROUSEL_CONTAINER; revisar en Meta Business Suite si @aliabdulhadi_8 sigue como Business/Creator y si el token conectado en Composio tiene el permiso instagram_content_publish.
+- DISCREPANCIA CRITICA DETECTADA (no resuelta, no se toco progreso.json): progreso.json marca ali_s8t=4 (siguiente=c05), pero este mismo log.md ya registra @aliabdulhadi_8 C5 publicado el 2026-07-21 (media_id 17924569731390908, https://www.instagram.com/p/DbEOMA-nePy/). Es decir, C5 ya estaba en vivo antes de este intento — el contador global deberia estar en 5 y el siguiente carrusel real seria c06, no c05. Se requiere que Ali confirme el valor correcto de ali_s8t antes de la proxima corrida para evitar publicar contenido duplicado o saltarse un carrusel.
+- Contadores de progreso.json (globales y de hoy) NO modificados por esta corrida.
