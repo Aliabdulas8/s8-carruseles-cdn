@@ -23,11 +23,11 @@
 
 - @s8tracker C32 (software) — media_id 18092501363527975 — INCIDENCIA: primer intento de contenedor fallo (Meta no pudo obtener zug1wc.jpg desde catbox), reintento inmediato exitoso — https://www.instagram.com/p/DbEc7HjG9TN/
 
-- @academiaseccion8 A2 (propio) — media_id 17935492401091709 — https://www.instagram.com/p/DbEi9XzmzhE/
+- @academiaseccion8 A2 (propio) — media_id 17935492401091709 — https://www.instagram.com/p/DbEi9Xzmzhe/
 
 ## 2026-07-22
 
-- INCIDENCIA (ig-ali-s8t-4x): intento de publicar c05 en @aliabdulhadi_8 (ig_user_id 27502321802724366) fallo en INSTAGRAM_CREATE_CAROUSEL_CONTAINER, antes de crear el primer child container. Error Meta: code 100, subcode 33 — "Object with ID '27502321802724366' does not exist, cannot be loaded due to missing permissions, or does not support this operation". Las 7 imagenes de c05 SI cargaban (HTTP 200 verificado por curl antes del intento). La cuenta conectada en Composio (alias instagram_gammer-soiled) figura con account_type PRIVATE — la API de Instagram Graph exige cuenta Business o Creator para INSTAGRAM_CREATE_CAROUSEL_CONTAINER; revisar en Meta Business Suite si @aliabdulhadi_8 sigue como Business/Creator y si el token conectado en Composio tiene el permiso instagram_content_publish.
+- INCIDENCIA (ig-ali-s8t-4x): intento de publicar c05 en @aliabdulhadi_8 (ig_user_id 2750232180272436 6) fallo en INSTAGRAM_CREATE_CAROUSEL_CONTAINER, antes de crear el primer child container. Error Meta: code 100, subcode 33 — "Object with ID '2750232180272436 6' does not exist, cannot be loaded due to missing permissions, or does not support this operation". Las 7 imagenes de c05 SI cargaban (HTTP 200 verificado por curl antes del intento). La cuenta conectada en Composio (alias instagram_gammer-soiled) figura con account_type PRIVATE — la API de Instagram Graph exige cuenta Business o Creator para INSTAGRAM_CREATE_CAROUSEL_CONTAINER; revisar en Meta Business Suite si @aliabdulhadi_8 sigue como Business/Creator y si el token conectado en Composio tiene el permiso instagram_content_publish.
 - DISCREPANCIA CRITICA DETECTADA (no resuelta, no se toco progreso.json): progreso.json marca ali_s8t=4 (siguiente=c05), pero este mismo log.md ya registra @aliabdulhadi_8 C5 publicado el 2026-07-21 (media_id 17924569731390908, https://www.instagram.com/p/DbEOMA-nePy/). Es decir, C5 ya estaba en vivo antes de este intento — el contador global deberia estar en 5 y el siguiente carrusel real seria c06, no c05. Se requiere que Ali confirme el valor correcto de ali_s8t antes de la proxima corrida para evitar publicar contenido duplicado o saltarse un carrusel.
 - Contadores de progreso.json (globales y de hoy) NO modificados por esta corrida.
 
@@ -40,4 +40,6 @@
 
 - @academiaseccion8 c04 (C04, S8T) — media_id 18102336548594070 — https://www.instagram.com/p/DbGzVbqm-Z_/ — verificado con log.md antes de calcular clave (C1, C2, C03 ya publicados; c04 es el siguiente correcto). Regla de proporcion 1:2 aplico (as8_s8t=3 >= 2*as8_propio=4 era falso, tocaba S8T). as8_s8t 3->4, hoy.as8_s8t 1->2.
 
-- @s8tracker c03 (datos) — media_id 18139351099498830 — https://www.instagram.com/p/DbHBtP7myG1/ — reintento exitoso tras la incidencia registrada arriba en esta misma fecha (fallo previo de permisos/tipo de cuenta ya resuelto). datos 2->3, hoy.s8tracker_datos 0->1.
+- @s8tracker c03 (datos) — media_id 181393510994988830 — https://www.instagram.com/p/DbHBtP7myG1/ — reintento exitoso tras la incidencia registrada arriba en esta misma fecha (fallo previo de permisos/tipo de cuenta ya resuelto). datos 2->3, hoy.s8tracker_datos 0->1.
+
+- @academiaseccion8 a03 (propio) — media_id 18373869055230288 — https://www.instagram.com/p/DbHH5bCGyv5/ — verificado con log.md antes de calcular clave (A1, A2 ya publicados; a03 es el siguiente correcto). Regla de proporcion 1:2 aplico (as8_s8t=4 >= 2*as8_propio=2 era true, tocaba deck propio). as8_propio 2->3, hoy.as8_propio 0->1.
