@@ -39,3 +39,5 @@
 - @aliabdulhadi_8 c06 (C6) — media_id 18167332672453854 — https://www.instagram.com/p/DbGy6cDnRTm/ — verificado con log.md antes de calcular clave (C1-C5 ya publicados, c06 es el siguiente correcto). ali_s8t 5->6, hoy.ali_s8t 1->2.
 
 - @academiaseccion8 c04 (C04, S8T) — media_id 18102336548594070 — https://www.instagram.com/p/DbGzVbqm-Z_/ — verificado con log.md antes de calcular clave (C1, C2, C03 ya publicados; c04 es el siguiente correcto). Regla de proporcion 1:2 aplico (as8_s8t=3 >= 2*as8_propio=4 era falso, tocaba S8T). as8_s8t 3->4, hoy.as8_s8t 1->2.
+
+- @s8tracker c03 (datos) — media_id 18139351099498830 — https://www.instagram.com/p/DbHBtP7myG1/ — reintento exitoso tras la incidencia registrada arriba en esta misma fecha (fallo previo de permisos/tipo de cuenta ya resuelto). datos 2->3, hoy.s8tracker_datos 0->1.
