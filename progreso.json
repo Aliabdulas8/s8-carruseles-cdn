@@ -1,1 +1,15 @@
-{"datos": 3, "software": 2, "as8_propio": 3, "as8_s8t": 5, "ali_s8t": 6, "hoy": {"fecha": "2026-07-23", "s8tracker_datos": 0, "s8tracker_software": 0, "as8_propio": 0, "as8_s8t": 1, "ali_s8t": 0}}
+{
+  "datos": 3,
+  "software": 2,
+  "as8_propio": 3,
+  "as8_s8t": 5,
+  "ali_s8t": 7,
+  "hoy": {
+    "fecha": "2026-07-23",
+    "s8tracker_datos": 0,
+    "s8tracker_software": 0,
+    "as8_propio": 0,
+    "as8_s8t": 1,
+    "ali_s8t": 1
+  }
+}
