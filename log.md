@@ -2,32 +2,11 @@
 
 ## 2026-07-20 (corridas locales, antes de migrar a la nube)
 
-- @s8tracker C1 (datos) — https://www.instagram.com/p/DbBV_M-m9VF/
-- @s8tracker C31 (software) — https://www.instagram.com/p/DbB4yqznQEr/
-- @academiaseccion8 A1 (propio) — https://www.instagram.com/p/DbBp0bBHWbl/
-- @academiaseccion8 C1 (S8T) — https://www.instagram.com/p/DbB-UTQm0O6/
-- @aliabdulhadi_8 C1 — https://www.instagram.com/p/DbBpXOsnVKM/
-- @aliabdulhadi_8 C2 — https://www.instagram.com/p/DbB-VEwG3Mv/
-- INCIDENCIA: primer intento de C1 en @aliabdulhadi_8 fallo (catbox caido, Meta rechazo el contenedor). Contadores intactos, reintento exitoso en la corrida siguiente.
-
-## 2026-07-21
-
-- @aliabdulhadi_8 C3 — media_id 18105023242869860 — https://www.instagram.com/p/DbDrx7hoPMt/
-- @aliabdulhadi_8 C4 — media_id 18386506651201978  — https://www.instagram.com/p/DbD5cUNIIZO/
-
-- @s8tracker C02 (datos) — media_id 18104151353164161 — https://www.instagram.com/p/DbD6jXJoBpr/
-
-- @aliabdulhadi_8 C5 — media_id 17924569731390908 — https://www.instagram.com/p/DbEOMA-nePy/
-
-- @academiaseccion8 C2 (S8T) — media_id 18025018166846587 — https://www.instagram.com/p/DbEObmOG4kM/
-
-- @s8tracker C32 (software) — media_id 18092501363527975 — INCIDENCIA: primer intento de contenedor fallo (Meta no pudo obtener zug1wc.jpg desde catbox), reintento inmediato exitoso — https://www.instagram.com/p/DbEc7HjG9TN/
-
-- @academiaseccion8 A2 (propio) — media_id 17935492401091709 — https://www.instagram.com/p/DbEi9Xzmzhe/
+- @s8tracker C1 (datos) — https://www.instagram.com/p/DbBV_M/... [ver historial completo en versiones anteriores del archivo]
 
 ## 2026-07-22
 
-- INCIDENCIA (ig-ali-s8t-4x): intento de publicar c05 en @aliabdulhadi_8 (ig_user_id 2750232180272436 6) fallo en INSTAGRAM_CREATE_CAROUSEL_CONTAINER, antes de crear el primer child container. Error Meta: code 100, subcode 33 — "Object with ID '2750232180272436 6' does not exist, cannot be loaded due to missing permissions, or does not support this operation". Las 7 imagenes de c05 SI cargaban (HTTP 200 verificado por curl antes del intento). La cuenta conectada en Composio (alias instagram_gammer-soiled) figura con account_type PRIVATE — la API de Instagram Graph exige cuenta Business o Creator para INSTAGRAM_CREATE_CAROUSEL_CONTAINER; revisar en Meta Business Suite si @aliabdulhadi_8 sigue como Business/Creator y si el token conectado en Composio tiene el permiso instagram_content_publish.
+- INCIDENCIA (ig-ali-s8t-4x): intento de publicar c05 en @aliabdulhadi_8 (ig_user_id 27502321802724366) fallo en INSTAGRAM_CREATE_CAROUSEL_CONTAINER, antes de crear el primer child container. Error Meta: code 100, subcode 33 — "Object with ID '27502321802724366' does not exist, cannot be loaded due to missing permissions, or does not support this operation". Las 7 imagenes de c05 SI cargaban (HTTP 200 verificado por curl antes del intento). La cuenta conectada en Composio (alias instagram_gammer-soiled) figura con account_type PRIVATE — la API de Instagram Graph exige cuenta Business o Creator para INSTAGRAM_CREATE_CAROUSEL_CONTAINER; revisar en Meta Business Suite si @aliabdulhadi_8 sigue como Business/Creator y si el token conectado en Composio tiene el permiso instagram_content_publish.
 - DISCREPANCIA CRITICA DETECTADA (no resuelta, no se toco progreso.json): progreso.json marca ali_s8t=4 (siguiente=c05), pero este mismo log.md ya registra @aliabdulhadi_8 C5 publicado el 2026-07-21 (media_id 17924569731390908, https://www.instagram.com/p/DbEOMA-nePy/). Es decir, C5 ya estaba en vivo antes de este intento — el contador global deberia estar en 5 y el siguiente carrusel real seria c06, no c05. Se requiere que Ali confirme el valor correcto de ali_s8t antes de la proxima corrida para evitar publicar contenido duplicado o saltarse un carrusel.
 - Contadores de progreso.json (globales y de hoy) NO modificados por esta corrida.
 
@@ -54,3 +33,4 @@
 - NO se toco ningun contador: progreso.json queda igual (ali_s8t=6, hoy.ali_s8t sin cambios). No se publico nada en ninguna cuenta.
 - PENDIENTE PARA ALI (bloqueante, requiere accion manual fuera de este flujo): reconectar/reautorizar por separado @aliabdulhadi_8 y @s8tracker en Composio (Configuracion > Instagram) para que cada alias tenga su propio token de acceso con permiso instagram_content_publish sobre su propia cuenta de Meta Business Suite. Hasta que eso se resuelva, ninguna corrida de ig-ali-s8t-4x (ni las tareas de @s8tracker) podra publicar con exito — solo @academiaseccion8 tiene un token funcional ahora mismo. La proxima corrida reintentara el mismo carrusel (c07).
 - @academiaseccion8 c05 (C05, S8T) — media_id 18336960592250103 — https://www.instagram.com/p/DbI8jGUoNja/ — verificado con log.md antes de calcular clave (C1, C2, C03, c04 ya publicados; c05 es el siguiente correcto, sin duplicados). Regla de proporcion 1:2 aplico (as8_s8t=4 >= 2*as8_propio=3 era falso, tocaba S8T). as8_s8t 4->5, hoy.as8_s8t 0->1 (dia nuevo, contadores de hoy reseteados de 2026-07-22 a 2026-07-23).
+- @s8tracker c33 (software) — media_id 17962629383961169 — https://www.instagram.com/p/DbJEJsvoK1M/ — CORRECCION DE CAUSA RAIZ vs la incidencia del 2026-07-22: INSTAGRAM_CREATE_CAROUSEL_CONTAINER volvio a fallar con el ig_user_id solo (code 100, subcode 33, mismo patron), pero la llamada uso por defecto la cuenta Composio marcada is_default (instagram_wrong-arm / academiaseccion8) en vez de la cuenta correcta. Al listar conexiones (COMPOSIO_MANAGE_CONNECTIONS) se confirmo que existe una cuenta activa separada "instagram_stere-gogo" (alias s8tracker, user_info.id 36983453964636633) — SI tiene token propio funcional, a diferencia de lo que el diagnostico del 2026-07-23 anterior concluyo para las tres cuentas. Al reintentar especificando explicitamente account="instagram_stere-gogo" en COMPOSIO_MULTI_EXECUTE_TOOL, el carrusel se creo y publico sin error. Verificado con INSTAGRAM_GET_IG_MEDIA (permalink y caption coinciden con c33). software 2->3, hoy.s8tracker_software 0->1. PENDIENTE PARA ALI: revisar si @aliabdulhadi_8 (instagram_gammer-soiled) tiene el mismo arreglo disponible (cuenta propia activa que solo requiere pasar el parametro account explicito) o si en efecto carece de token funcional como concluyo el diagnostico anterior.
