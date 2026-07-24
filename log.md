@@ -61,3 +61,7 @@
 - @academiaseccion8 c06 (C06, S8T) — media_id 18383512501167559 — https://www.instagram.com/p/DbJss2Mm4XO/ — verificado con log.md antes de calcular clave (C1, C2, C03, c04, c05 ya publicados; c06 es el siguiente correcto, sin duplicados). Regla de proporcion 1:2 aplico (as8_s8t=5 >= 2*as8_propio=3 era falso, tocaba S8T). as8_s8t 5->6, hoy.as8_s8t 1->2.
 
 - @s8tracker c04 (datos) — media_id 18089536163529375 — https://www.instagram.com/p/DbJ1YH_GwtH/ — verificado con log.md antes de calcular clave (c01-c03 ya publicados; c04 es el siguiente correcto, sin duplicados). Comparacion global datos=3 vs software=3 (empate → datos). datos 3->4, hoy.s8tracker_datos 0->1.
+
+## 2026-07-24
+
+- @academiaseccion8 a04 (propio) — media_id 17877646878622056 — https://www.instagram.com/p/DbLhh71oNoa/ — verificado con log.md antes de calcular clave (A1-A3 ya publicados; a04 es el siguiente correcto, sin duplicados). as8_propio 3->4, hoy.as8_propio 0->1 (dia nuevo, contadores de hoy reseteados de 2026-07-23 a 2026-07-24).
