@@ -65,3 +65,5 @@
 ## 2026-07-24
 
 - @academiaseccion8 a04 (propio) — media_id 17877646878622056 — https://www.instagram.com/p/DbLhh71oNoa/ — verificado con log.md antes de calcular clave (A1-A3 ya publicados; a04 es el siguiente correcto, sin duplicados). as8_propio 3->4, hoy.as8_propio 0->1 (dia nuevo, contadores de hoy reseteados de 2026-07-23 a 2026-07-24).
+
+- @s8tracker c34 (software) — media_id 18120557741494582 — https://www.instagram.com/p/DbLpG58IBZk/ — verificado con log.md e INSTAGRAM_GET_IG_USER_MEDIA antes de calcular clave: log.md solo tenia registrado C31 y C32 para software, pero progreso.json marcaba software=3. Se confirmo contra el feed real de @s8tracker que SI existe una tercera publicacion de software nunca registrada en este log (media_id 17962629383961169, https://www.instagram.com/p/DbJEJsvoK1M/, 2026-07-23T16:11:56, analisis de propiedad paso a paso) — GAP DE LOG detectado y anotado aqui, el contador de progreso.json era correcto (no hubo salto ni duplicado). Con C31-C33 confirmados en vivo, c34 era el siguiente correcto. software 3->4, hoy.s8tracker_software 0->1.
