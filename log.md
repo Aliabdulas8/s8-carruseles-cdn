@@ -101,3 +101,5 @@
 - @s8tracker c37 (software) — media_id 18122247733831442 — https://www.instagram.com/p/DbYg6l9IDxK/ — verificado con log.md antes de calcular clave (c01-c07 ya publicados en datos, C31-C36 en software; c37 es el siguiente correcto, sin duplicados). Comparacion global datos=7 vs software=6 -> toca software. software 6->7, hoy.s8tracker_software 0->1.
 
 - @academiaseccion8 c12 (S8T) — media_id 18086322761180821 — https://www.instagram.com/p/DbY0vVBHaMo/ — verificado con log.md antes de calcular clave (C1-C11 ya publicados en S8T; c12 es el siguiente correcto, sin duplicados). Regla de proporcion 1:2 aplico (as8_s8t=11 >= 2*as8_propio=6 era falso, tocaba S8T). as8_s8t 11->12, hoy.as8_s8t 1->2.
+
+- @s8tracker c08 (datos) — media_id 17948259516030543 — https://www.instagram.com/p/DbZDJMXnWlK/ — verificado con log.md antes de calcular clave (c01-c07 ya publicados en datos, C31-C37 en software; c08 es el siguiente correcto, sin duplicados). Comparacion global datos=7 vs software=7 (empate -> datos). datos 7->8, hoy.s8tracker_datos 0->1.
