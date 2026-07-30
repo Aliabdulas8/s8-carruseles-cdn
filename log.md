@@ -109,3 +109,5 @@
 ## 2026-07-30
 
 - @academiaseccion8 c13 (S8T) — media_id 17901488811326900 — https://www.instagram.com/p/Dba-KcPIFtq/ — dia nuevo detectado (progreso.hoy.fecha era 2026-07-29), contadores de hoy reseteados a 0 antes de calcular. Verificado con log.md antes de calcular clave (C1-C12 ya publicados en S8T; c13 es el siguiente correcto, sin duplicados). Regla de proporcion 1:2 aplico (as8_s8t=12 >= 2*as8_propio=14 era falso, tocaba S8T). as8_s8t 12->13, hoy.as8_s8t 0->1, hoy.fecha 2026-07-29->2026-07-30.
+
+- @s8tracker c38 (software) — media_id 18097484726620132 — https://www.instagram.com/p/DbbFqphIJ_J/ — verificado con log.md antes de calcular clave (C31-C37 ya publicados en software; c38 es el siguiente correcto, sin duplicados). Comparacion global datos=8 vs software=7 (software mas bajo, tocaba software). software 7->8, hoy.s8tracker_software 0->1.
