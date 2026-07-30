@@ -105,3 +105,7 @@
 - @s8tracker c08 (datos) — media_id 17948259516030543 — https://www.instagram.com/p/DbZDJMXnWlK/ — verificado con log.md antes de calcular clave (c01-c07 ya publicados en datos, C31-C37 en software; c08 es el siguiente correcto, sin duplicados). Comparacion global datos=7 vs software=7 (empate -> datos). datos 7->8, hoy.s8tracker_datos 0->1.
 
 - @academiaseccion8 a07 (propio) — media_id 18025459073892897 — https://www.instagram.com/p/DbZJa3OnR2m/ — verificado con log.md antes de calcular clave (A1-A6 ya publicados; a07 es el siguiente correcto, sin duplicados). Regla de proporcion 1:2 aplico (as8_s8t=12 >= 2*as8_propio=6 era true, tocaba deck propio). as8_propio 6->7, hoy.as8_propio 0->1.
+
+## 2026-07-30
+
+- @academiaseccion8 c13 (S8T) — media_id 17901488811326900 — https://www.instagram.com/p/Dba-KcPIFtq/ — dia nuevo detectado (progreso.hoy.fecha era 2026-07-29), contadores de hoy reseteados a 0 antes de calcular. Verificado con log.md antes de calcular clave (C1-C12 ya publicados en S8T; c13 es el siguiente correcto, sin duplicados). Regla de proporcion 1:2 aplico (as8_s8t=12 >= 2*as8_propio=14 era falso, tocaba S8T). as8_s8t 12->13, hoy.as8_s8t 0->1, hoy.fecha 2026-07-29->2026-07-30.
