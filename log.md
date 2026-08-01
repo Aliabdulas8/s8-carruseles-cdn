@@ -117,3 +117,5 @@
 - @s8tracker c09 (datos) — media_id 17984310320861815 — https://www.instagram.com/p/DbboGQJHZ9g/ — verificado con log.md antes de calcular clave (C1-C8 ya publicados en datos; c09 es el siguiente correcto, sin duplicados). Comparacion global datos=8 vs software=8 (empate, tocaba datos). datos 8->9, hoy.s8tracker_datos 0->1.
 
 - @academiaseccion8 a08 (propio) — media_id 18124541662607675 — https://www.instagram.com/p/DbbuPGVndiE/ — verificado con log.md antes de calcular clave (A1-A7 ya publicados en propio; a08 es el siguiente correcto, sin duplicados). Regla de proporcion 1:2 aplico (as8_s8t=14 >= 2*as8_propio=14, tocaba deck propio). as8_propio 7->8, hoy.as8_propio 0->1.
+
+- @s8tracker c39 (software) — media_id 18091061492420107 — https://www.instagram.com/p/Dbfd1-um5u4/ — verificado con log.md antes de calcular clave (C31-C38 ya publicados en software; c39 es el siguiente correcto, sin duplicados). Comparacion global datos=9 vs software=8 (software mas bajo, tocaba software). software 8->9, hoy.s8tracker_software 0->1, hoy.fecha 2026-07-30->2026-08-01.
