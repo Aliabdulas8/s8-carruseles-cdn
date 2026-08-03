@@ -1,6 +1,6 @@
 {
   "datos": 11,
-  "software": 10,
+  "software": 11,
   "as8_propio": 9,
   "as8_s8t": 18,
   "ali_s8t": 7,
@@ -8,7 +8,7 @@
     "fecha": "2026-08-03",
     "as8_propio": 0,
     "as8_s8t": 1,
-    "s8tracker_software": 0,
+    "s8tracker_software": 1,
     "s8tracker_datos": 0
   }
 }
