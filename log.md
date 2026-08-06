@@ -143,3 +143,7 @@
 ## 2026-08-05
 
 - @academiaseccion8 c19 (s8tracker) — media_id 17960952771181583 — https://www.instagram.com/p/DbqUYTaoBDf/ — verificado con progreso.json antes de calcular clave (as8_propio=10, as8_s8t=18; 18 >= 2*10=20 es falso, tocaba S8Tracker; numero=as8_s8t+1=19, clave c19, sin duplicados). Dia nuevo detectado (hoy.fecha 2026-08-03->2026-08-05, contadores de hoy reseteados a 0 antes de publicar, cuota 0/3 antes de esta corrida). Container y publish exitosos al primer intento, sin incidencias. as8_s8t 18->19, hoy.as8_s8t 0->1.
+
+## 2026-08-06
+
+- @s8tracker c12 (datos) — media_id 18083209589657327 — https://www.instagram.com/p/DbtoYa0neqd/ — verificado con progreso.json antes de calcular clave (datos=11, software=11; empate, tocaba datos; numero=datos+1=12, clave c12, sin duplicados). Dia nuevo detectado (hoy.fecha 2026-08-05->2026-08-06, contadores de hoy reseteados a 0 antes de publicar, cuota 0/2 antes de esta corrida). 7 imagenes de catbox verificadas vivas con GET (no HEAD) antes de publicar. Container sin share_to_feed (bug conocido) y publish exitosos al primer intento, sin incidencias. datos 11->12, hoy.s8tracker_datos 0->1.
