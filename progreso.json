@@ -2,13 +2,13 @@
   "datos": 14,
   "software": 13,
   "as8_propio": 12,
-  "as8_s8t": 22,
+  "as8_s8t": 23,
   "ali_s8t": 7,
   "hoy": {
-    "fecha": "2026-08-11",
-    "as8_propio": 1,
-    "as8_s8t": 0,
+    "fecha": "2026-08-12",
+    "as8_propio": 0,
+    "as8_s8t": 1,
     "s8tracker_software": 0,
-    "s8tracker_datos": 1
+    "s8tracker_datos": 0
   }
 }
