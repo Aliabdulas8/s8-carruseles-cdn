@@ -247,3 +247,7 @@ NOTA PARA ALI: sumar a los pendientes conocidos (duplicados de c12 x3, gaps c04/
 - 2026-08-26 | academiaseccion8 | a19 (propio) | media_id 18151437985518304 | https://www.instagram.com/p/DcgLqAimwMe/
 - 2026-08-26 | s8tracker | c22 (datos) | media_id 17928695253396362 | https://www.instagram.com/p/DcgaVJPIGys/
 - 2026-08-26 | academiaseccion8 | c37 (s8tracker) | media_id 18247044796308726 | https://www.instagram.com/p/DcggQwiG5Tn/
+
+## 2026-08-27
+
+- 2026-08-27 | academiaseccion8 | c38 (s8tracker) | media_id 18162857233468946 | https://www.instagram.com/p/Dci1nLsIDi_/
