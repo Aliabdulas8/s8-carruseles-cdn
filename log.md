@@ -253,3 +253,7 @@ NOTA PARA ALI: sumar a los pendientes conocidos (duplicados de c12 x3, gaps c04/
 - 2026-08-27 | academiaseccion8 | c38 (s8tracker) | media_id 18162857233468946 | https://www.instagram.com/p/Dci1nLsIDi_/
 - @s8tracker C52 (software) — media_id 17984237850061079 — https://www.instagram.com/p/Dci10ngGwXd/ — 2026-08-27
 - @s8tracker C23 (datos) — media_id 18125568460789619 — https://www.instagram.com/p/DcjSt7bm4B7/ — 2026-08-27
+## 2026-08-28
+
+- 2026-08-27 | academiaseccion8 | a20 (propio) | media_id 18109076651588567 | https://www.instagram.com/p/DcjSVtDoK7u/ | NOTA RETROACTIVA: publicado ese dia (confirmado via INSTAGRAM_GET_IG_USER_MEDIA, caption identico byte a byte) pero el write de progreso.json/log.md fallo silenciosamente ese dia -- mismo patron ya documentado de c12(x3)/c26(x2)/a10(x2)/a12(x3)/c33. Detectado hoy 28-ago auditando los 50 posts mas recientes de la cuenta antes de publicar (protocolo estandar). as8_propio corregido 19->20 en el mismo write que sube por la publicacion de hoy.
+- 2026-08-28 | academiaseccion8 | c39 (s8tracker) | media_id 18104806823177384 | https://www.instagram.com/p/DclLcNZoIkD/
