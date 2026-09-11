@@ -373,3 +373,6 @@ Construido para hispanohablantes desde el primer boton.
 - @academiaseccion8 C59 (S8Tracker) — media_id 17967215853157169 — https://www.instagram.com/p/DdKJV56Haa7/ — 2026-09-11T19:19:20+0000
 
 - ig-s8tracker-datos-11am (2026-09-11, corrida 11am): SIN PUBLICAR. Verificado progreso.json (sha fbdacdf2cb8d96a2085ba6fb62e63a47f945e49d) — datos=30/30 y software=30/30, ambas series de @s8tracker siguen agotadas desde el 7-sep (C1-C60 completo). hoy={fecha:2026-09-11, s8tracker_datos:0, s8tracker_software:0}, cuota de esta tarea hoy 0/2 pero no hay contenido que publicar. No se toco ningun contador ni se llamo a INSTAGRAM_CREATE_CAROUSEL_CONTAINER. Pendiente sin resolver: Ali debe agregar carruseles C61+ a urls.json/captions.json para que esta tarea vuelva a tener cola. Tarea: ig-s8tracker-datos-11am (autorizada por Ali 19-jul-2026).
+
+## 2026-09-11 22:20 UTC — ig-as8-propio-10am (2da corrida)
+Publicado c60 (S8TRACKER) en @academiaseccion8. media_id=17928661563165505, creation_id=17968904358155104, permalink=https://www.instagram.com/p/DdKeBABHR6K/. Motivo del tipo: deck propio (as8_propio) agotado en su tope de 30, se publico S8TRACKER en su lugar (as8_s8t paso de 59 a 60, ahora AGOTADO 60/60). Cuota hoy: 3/3 (as8_propio 1, as8_s8t 2). progreso.json actualizado y verificado con GET fresco tras el commit feb73ef00a15.
